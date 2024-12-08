@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1027069756278182118}
   - component: {fileID: 6957479580523079177}
   - component: {fileID: -1507743684835235474}
+  - component: {fileID: 5931352035284565039}
   m_Layer: 0
   m_Name: CubeToy
   m_TagString: Untagged
@@ -225,7 +226,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 1
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -267,3 +268,16 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &5931352035284565039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4361401469615741462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b98ad28b1ff06409946d3fba03a792, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toyType: 1
