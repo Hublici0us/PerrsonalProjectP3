@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public enum ToyType { dumbell, box, amogus}
@@ -32,6 +33,10 @@ public class ContainsObject : MonoBehaviour
         {
             toysInBox++;
             UpdateAmount(+1);
+        }
+        else
+        {
+            return;
         }
     }
 
